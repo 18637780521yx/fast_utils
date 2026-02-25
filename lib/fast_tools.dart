@@ -9,8 +9,9 @@ export 'src/sp_utils.dart';
 export 'src/fast_log.dart';
 export 'src/fast_app_info.dart';
 export 'src/fast_connectivity.dart';
+export 'src/fast_ui.dart';
 
-class FastUtils {
+class FastTools {
   /// 一次性初始化 fast_utils 相关能力。
   ///
   /// 内部会依次初始化：

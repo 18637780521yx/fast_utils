@@ -98,10 +98,22 @@
       "languageVersion": "3.8"
     },
     {
+      "name": "flutter_easyloading",
+      "rootUri": "file:///Users/fc/.pub-cache/hosted/pub.flutter-io.cn/flutter_easyloading-3.0.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "flutter_lints",
       "rootUri": "file:///Users/fc/.pub-cache/hosted/pub.flutter-io.cn/flutter_lints-5.0.0",
       "packageUri": "lib/",
       "languageVersion": "3.5"
+    },
+    {
+      "name": "flutter_spinkit",
+      "rootUri": "file:///Users/fc/.pub-cache/hosted/pub.flutter-io.cn/flutter_spinkit-5.2.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
     },
     {
       "name": "flutter_test",
@@ -120,6 +132,12 @@
       "rootUri": "file:///Users/fc/fvm/versions/3.35.2/packages/flutter_web_plugins",
       "packageUri": "lib/",
       "languageVersion": "3.8"
+    },
+    {
+      "name": "fluttertoast",
+      "rootUri": "file:///Users/fc/.pub-cache/hosted/pub.flutter-io.cn/fluttertoast-8.2.14",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
     },
     {
       "name": "http",
@@ -374,7 +392,7 @@
       "languageVersion": "3.8"
     },
     {
-      "name": "fast_utils",
+      "name": "fast_tools",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "3.0"

@@ -1,4 +1,4 @@
-name: fast_utils
+name: fast_tools
 description: A Flutter utility plugin providing network, shared preferences, logging, and app info helpers.
 version: 0.1.0
 homepage: https://example.com/fast_utils
@@ -15,7 +15,8 @@ dependencies:
   device_info_plus: ^10.0.0
   logger: ^2.5.0
   connectivity_plus: ^6.1.5
-  http: ^1.6.0
+  fluttertoast: ^8.2.12
+  flutter_easyloading: ^3.0.5
 
 dev_dependencies:
   flutter_test:

@@ -1,17 +1,18 @@
 {
   "roots": [
-    "fast_utils"
+    "fast_tools"
   ],
   "packages": [
     {
-      "name": "fast_utils",
+      "name": "fast_tools",
       "version": "0.1.0",
       "dependencies": [
         "connectivity_plus",
         "device_info_plus",
         "flutter",
+        "flutter_easyloading",
         "flutter_udid",
-        "http",
+        "fluttertoast",
         "logger",
         "package_info_plus",
         "shared_preferences"
@@ -47,12 +48,19 @@
       ]
     },
     {
-      "name": "http",
-      "version": "1.6.0",
+      "name": "flutter_easyloading",
+      "version": "3.0.5",
       "dependencies": [
-        "async",
-        "http_parser",
-        "meta",
+        "flutter",
+        "flutter_spinkit"
+      ]
+    },
+    {
+      "name": "fluttertoast",
+      "version": "8.2.14",
+      "dependencies": [
+        "flutter",
+        "flutter_web_plugins",
         "web"
       ]
     },
@@ -230,26 +238,22 @@
       ]
     },
     {
+      "name": "flutter_spinkit",
+      "version": "5.2.2",
+      "dependencies": [
+        "flutter"
+      ]
+    },
+    {
       "name": "web",
       "version": "1.1.1",
       "dependencies": []
     },
     {
-      "name": "http_parser",
-      "version": "4.1.2",
+      "name": "flutter_web_plugins",
+      "version": "0.0.0",
       "dependencies": [
-        "collection",
-        "source_span",
-        "string_scanner",
-        "typed_data"
-      ]
-    },
-    {
-      "name": "async",
-      "version": "2.13.0",
-      "dependencies": [
-        "collection",
-        "meta"
+        "flutter"
       ]
     },
     {
@@ -257,13 +261,6 @@
       "version": "0.5.0",
       "dependencies": [
         "dbus"
-      ]
-    },
-    {
-      "name": "flutter_web_plugins",
-      "version": "0.0.0",
-      "dependencies": [
-        "flutter"
       ]
     },
     {
@@ -326,6 +323,16 @@
         "flutter",
         "meta",
         "plugin_platform_interface"
+      ]
+    },
+    {
+      "name": "http",
+      "version": "1.6.0",
+      "dependencies": [
+        "async",
+        "http_parser",
+        "meta",
+        "web"
       ]
     },
     {
@@ -404,6 +411,14 @@
       "dependencies": []
     },
     {
+      "name": "async",
+      "version": "2.13.0",
+      "dependencies": [
+        "collection",
+        "meta"
+      ]
+    },
+    {
       "name": "leak_tracker_testing",
       "version": "3.0.2",
       "dependencies": [
@@ -453,10 +468,13 @@
       ]
     },
     {
-      "name": "typed_data",
-      "version": "1.4.0",
+      "name": "dbus",
+      "version": "0.7.12",
       "dependencies": [
-        "collection"
+        "args",
+        "ffi",
+        "meta",
+        "xml"
       ]
     },
     {
@@ -464,6 +482,23 @@
       "version": "2.1.8",
       "dependencies": [
         "meta"
+      ]
+    },
+    {
+      "name": "typed_data",
+      "version": "1.4.0",
+      "dependencies": [
+        "collection"
+      ]
+    },
+    {
+      "name": "http_parser",
+      "version": "4.1.2",
+      "dependencies": [
+        "collection",
+        "source_span",
+        "string_scanner",
+        "typed_data"
       ]
     },
     {
@@ -502,6 +537,20 @@
       "dependencies": []
     },
     {
+      "name": "xml",
+      "version": "6.6.1",
+      "dependencies": [
+        "collection",
+        "meta",
+        "petitparser"
+      ]
+    },
+    {
+      "name": "args",
+      "version": "2.7.0",
+      "dependencies": []
+    },
+    {
       "name": "platform",
       "version": "3.1.6",
       "dependencies": []
@@ -515,36 +564,12 @@
       ]
     },
     {
-      "name": "dbus",
-      "version": "0.7.12",
-      "dependencies": [
-        "args",
-        "ffi",
-        "meta",
-        "xml"
-      ]
-    },
-    {
-      "name": "xml",
-      "version": "6.6.1",
-      "dependencies": [
-        "collection",
-        "meta",
-        "petitparser"
-      ]
-    },
-    {
       "name": "petitparser",
       "version": "7.0.2",
       "dependencies": [
         "collection",
         "meta"
       ]
-    },
-    {
-      "name": "args",
-      "version": "2.7.0",
-      "dependencies": []
     }
   ],
   "configVersion": 1
